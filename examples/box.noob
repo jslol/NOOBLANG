@@ -1,0 +1,20 @@
+//NOOBLANG program that prints a box-shape
+//By Caleb @ 2018
+
+oof "Enter the width"
+width be num noob
+
+oof "Enter the height"
+height be num noob
+
+oof ""
+
+for height
+  s be ''
+  for width
+    s be s add '*'
+  lol
+  oof s
+lol
+
+noob

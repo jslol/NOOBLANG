@@ -1,0 +1,10 @@
+//NOOBLANG program that finds phi
+//By Caleb @ 2018
+
+root5add1 be 5 pow 0.5 add 1
+
+phi be root5add1 div 2
+
+oof phi
+
+noob

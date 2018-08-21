@@ -1,0 +1,33 @@
+//NOOBLANG program that prints the Mandelbrot Set
+//By Caleb @ 2018
+
+ITERATIONS be 50
+
+for iy in -39 to 39
+	s be ""
+	for ix in -39 to 39
+		a be 0
+		b be 0
+		x be ix div 19.5
+		y be 0 sub iy div 19.5
+
+		inside be true
+		for ITERATIONS
+			tmp be a pow 2 sub b pow 2 add x
+			b be 2 mul a mul b add y
+			a be tmp
+
+			eef a pow 2 add b pow 2 mor 4
+				inside be false
+				a be 0
+				b be 0
+			lol
+		lol
+		eef inside
+			s be s add '*'
+		elz
+			s be s add ' '
+		lol
+	lol
+	oof s
+lol

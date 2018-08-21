@@ -1,0 +1,24 @@
+//NOOBLANG program that prints Fibonacci numbers
+//By Caleb @ 2018
+
+oof "Enter the number of Fibonacci numbers you want"
+count be num noob
+
+a be 1
+b be 1
+
+c be false
+
+for count
+  eef not c
+    a be a add b
+    oof a
+  lol
+  eef c
+    b be a add b
+    oof b
+  lol
+  c be not c
+lol
+
+noob

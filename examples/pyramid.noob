@@ -1,0 +1,16 @@
+//NOOBLANG program that prints a pyramid
+//By Caleb @ 2018
+
+oof "Input the number of layers"
+count be num noob
+
+oof ""
+for a in count 
+  s be ""
+  for a add 1
+    s be s add "*"
+  lol
+  oof s
+lol
+
+noob

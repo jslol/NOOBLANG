@@ -1,0 +1,17 @@
+//NOOBLANG program that prints a circle
+//By Caleb @ 2018
+
+oof "Enter the radius"
+rad be num noob
+
+for y in 0 sub rad to rad
+	s be ""
+	for x in 0 sub rad to rad
+		eef y pow 2 add x pow 2 laq rad pow 2
+			s be s add "*"
+		elz
+			s be s add " "
+		lol
+	lol
+	oof s
+lol
