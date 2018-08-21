@@ -3,8 +3,8 @@
 
 ## Usage
 
-* `nooblang.exe your-nooblang-file.noob` to run a file  
-* `nooblang.exe` for interactive shell  
+* `node index.js your-nooblang-file.noob` to run a file  
+* `node index.js` for interactive shell  
 
 ## Language Documentation
 
